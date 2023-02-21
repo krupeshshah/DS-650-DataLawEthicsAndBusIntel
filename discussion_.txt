@@ -1,0 +1,80 @@
+Ethical Idealism and Relativism:
+When the truth remains an ideal principle, social media allows us to see what other people think, this has turned out to be a big problem when it comes to everyone can say anything and what they want we can't agree on the truth of most assertions, In this, it includes transparency and community engagement the power and tension that interaction in social media will bring a kind of story. As users tell their stories via different social media platforms where they receive likes, dislikes, questions for the post, or comments on that post by the followers, only some interactions will interrupt or change the story. The relationship between media, society, and the environment on social media there are different types of users for example social professionals or private users, or professional users, social media should be a platform to initiate meaningful discussion and promote better communication. It's not the place to vent our anger onto someone or something, Accept the fact that not everyone has the same opinion as we do. However reasonable we believe our argument to be, we won't be able to convince everyone while there are lots of great contents online, it is our moral and social responsibility not to mislead others by spreading fake news, trust in one’s was a good predictor for a variety of online behavior and attitude. Transparency is offered by open ethics, the very fact that storytellers are confronted in real-time with their audience members suggests a philosophical level of social media communication.
+
+
+
+
+
+
+Ethical idealism deals with moral values, rights, and obligations. Idealism is a personal belief in moral absolutes; such that all ethical judgments are based on ethical principles and that the right actions will lead to expected results
+Finding communication strategies that appeal to all ethics positions could help to increase environmental behaviours not only for those with high moral standards, but also for individuals who base their decisions on self-interest motives. Also, the ethics and beliefs are to be communicated to all people who are involved in using a set of data are to be trained. Constant remindars on how abuse of data can lead to disasters and also letting them know about the penalties that they have to face when they do so will be helpful
+However, the concept of idealism and ethics have been kept aside and many use social media as a tool to create disturbances. for example, if a country bans some news from being published, the other countires might flash them all over and make that country look bad. It can also be considered as a fight within.
+
+
+
+
+Moral obligations, rights, and values are the subject of ethical idealism. Idealism is a personal conviction in moral absolutes, according to which all moral decisions are based on moral precepts and morally right actions will produce the desired outcomes.
+Finding communication tactics that are acceptable to all ethical perspectives could promote environmental behavior among both people with high moral standards and those who make decisions out of self-interest.
+All those involved in the use of a set of data must also be trained in the ethics and beliefs, which must also be communicated to them. It will be beneficial to continually remind people how misusing data can result in disasters and inform them of the consequences that they will face if they do so.
+Thoughts of idealism and ethics have been set aside, and many people use social media as a weapon to stir up trouble. For instance, if a nation forbids the publication of certain news, other nations may circulate those news stories and harm that nation's reputation. It could also be seen as an internal struggle.
+Since everyone is free to say whatever they want and we can't agree on the veracity of most claims, social media has made it difficult for us to know what other people think. This includes transparency and community engagement, which have the potential to increase tension and power in social media interactions. Only some interactions will interrupt or affect the story as individuals share their stories on various social media platforms and receive likes, dislikes, questions for the post, or comments on that post from the followers.
+On social media, the connection between media, society, and the environment There are many various user kinds, including social professionals, private users, and professional users. Social media should be used as a platform to start important conversations and encourage improved communication. Accept that not everyone shares our opinions and that this is not the place for us to express our rage at someone or anything. Although there are many excellent web resources, no matter how persuasive we think our case is, we won't be able to persuade everyone. It is, therefore, our moral and social responsibility to avoid disseminating false information and to maintain integrity.
+
+
+
+What is label propagation? Why would you implement it, and how?
+
+Label propagation is an algorithm for finding communities. In comparison with other algorithms label propagation has advantages in its running time and amount of a priori information needed about the network structure (no parameter is required to be known beforehand).
+Label Propagation Algorithm is one of the semi-supervised machine learning algorithms that assigns labels to unlabeled data observations in order to partition classification of data observations within dataset.
+
+Each of the distinct nodes has its corresponding label
+The corresponding label of each node denotes the distinct community that this node belongs to
+Through iteration within the network, each node will update its belongingness community based on belongingness community of neighbor nodes until all of the nodes with the same label are attributed to same communities
+The updated community of each node will be the corresponding belongingness community of the maximum number of nodes
+Eventually, densely connected nodes reach a common label community
+
+What is the difference between anomaly detection and novelty detection?
+
+Data that is in-distribution can be called novelty data. Novelty detection is when you have new data (i.e. OOD) and you want to know whether or not it is in-distribution. You want to know if it looks like the data you trained on. Anomaly detection is when you test your data to see if it is different than what you trained the model. Out-of-distribution detection is essentially running your model on OOD data. So one takes OOD data and does novelty detection or anomaly detection (aka outlier detection). Novelty detection is a statistical method used to determine new or unknown data and determining if these new data are within the norm (inlier) or outside of it (outlier). Anomaly detection is the process of finding outliers in a given dataset. Outliers are the data objects that stand out amongst other objects in the dataset and do not conform to the normal behavior in a dataset.
+
+
+seperate_col_name = []
+for column_name in df.columns:
+    col_name = column_name.split(".")
+    if col_name[1] != seperate_col_name:
+        seperate_col_name.append(col_name[1])
+print(seperate_col_name)
+
+
+
+thalach: maximum heart rate achieved
+
+
+
+
+old peak: ST depression induced by exercise relative to rest
+
+slp: the slope of the peak exercise ST segment
+
+0 = unsloping
+
+1 = flat
+
+2 = downsloping
+
+caa: number of major vessels (0-3)
+
+thall : thalassemia
+
+0 = null
+
+1 = fixed defect
+
+2 = normal
+
+3 = reversable defect
+
+output: diagnosis of heart disease (angiographic disease status)
+0: < 50% diameter narrowing. less chance of heart disease
+
+1: > 50% diameter narrowing. more chance of heart disease
